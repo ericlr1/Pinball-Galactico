@@ -1,0 +1,35 @@
+<config>
+  <app>
+    <title>Game Development Testbed</title>
+    <organization>UPC</organization>
+  </app>
+
+  <renderer>
+    <vsync value="true"/>
+  </renderer>
+
+  <window>
+    <resolution width="1024" height="480" scale="1"/>
+    <fullscreen value="false"/>
+    <borderless value="false"/>
+    <resizable value="false"/>
+    <fullscreen_window value="false"/>
+  </window>
+
+  <audio>
+    <music volume="128"/>
+    <fx volume="128"/>
+  </audio>
+
+  <!-- L02: DONE: Add an element for the entity manager and add the player parameters -->
+  <scene>
+    <player x="30" y="270" speed="5" texturepath="Assets/Textures/Player/Idle.png"/>
+    <item x="256" y="515" texturepath="Assets/Textures/goldCoin.png"/>
+  </scene>
+
+  <map>
+    <mapfolder path="Assets/Maps/"/>
+    <mapfile path="Assets/Maps/level1.tmx"/>
+  </map>
+  
+</config>
